@@ -1,0 +1,78 @@
+# ============================================
+# GUIDE: Obtenir tes clés API gratuites
+# ============================================
+#
+# ÉTAPE 1: Installe python-dotenv
+#   pip install python-dotenv requests
+#
+# ÉTAPE 2: Obtiens tes clés (dans l'ordre de priorité)
+#
+# ┌─────────────────────────────────────────────────────────────┐
+# │ 1. MISTRAL AI (meilleur choix)                             │
+# │    https://console.mistral.ai/api-keys                     │
+# │    → Crée un compte → Settings → API Keys → Create         │
+# │    → Copie la clé dans .env (MISTRAL_API_KEY=...)          │
+# │    ~1B tokens/mois, modèles: Medium, Small, Codestral     │
+# └─────────────────────────────────────────────────────────────┘
+#
+# ┌─────────────────────────────────────────────────────────────┐
+# │ 2. GROQ (ultra-rapide)                                     │
+# │    https://console.groq.com/keys                            │
+# │    → Sign in → API Keys → Create API Key                   │
+# │    → Copie dans .env (GROQ_API_KEY=...)                     │
+# │    30 RPM, 1000 RPD, 131K contexte                         │
+# └─────────────────────────────────────────────────────────────┘
+#
+# ┌─────────────────────────────────────────────────────────────┐
+# │ 3. CEREBRAS (inference la plus rapide au monde)             │
+# │    https://cloud.cerebras.ai/                               │
+# │    → Sign Up → API Keys → Create                           │
+# │    → Copie dans .env (CEREBRAS_API_KEY=...)                 │
+# │    Nécessite carte bancaire, 1M tokens/jour                 │
+# └─────────────────────────────────────────────────────────────┘
+#
+# ┌─────────────────────────────────────────────────────────────┐
+# │ 4. SAMBANOVA (200K tokens/jour)                             │
+# │    https://cloud.sambanova.ai/apis                          │
+# │    → Create Account → API Keys → Generate Key              │
+# │    → Copie dans .env (SAMBANOVA_API_KEY=...)                │
+# └─────────────────────────────────────────────────────────────┘
+#
+# ┌─────────────────────────────────────────────────────────────┐
+# │ 5. OPENROUTER (22 modèles gratuits)                        │
+# │    https://openrouter.ai/keys                               │
+# │    → Sign Up → Keys → Create Key                           │
+# │    → Copie dans .env (OPENROUTER_API_KEY=...)              │
+# └─────────────────────────────────────────────────────────────┘
+#
+# ┌─────────────────────────────────────────────────────────────┐
+# │ 6. COHERE (1000 appels/mois)                               │
+# │    https://dashboard.cohere.com/api-keys                    │
+# │    → Sign Up → API Keys → Create                           │
+# │    → Copie dans .env (COHERE_API_KEY=...)                   │
+# └─────────────────────────────────────────────────────────────┘
+#
+# ┌─────────────────────────────────────────────────────────────┐
+# │ 7. NVIDIA NIM (100+ modèles, sans carte)                   │
+# │    https://build.nvidia.com/explore/discover                │
+# │    → Join Developer Program → Get API Key                  │
+# │    → Copie dans .env (NVIDIA_API_KEY=...)                   │
+# └─────────────────────────────────────────────────────────────┘
+#
+# ┌─────────────────────────────────────────────────────────────┐
+# │ 8. GITHUB MODELS (GPT-5, GPT-4.1, o4-mini)                │
+# │    → Va sur GitHub → Settings → Developer settings         │
+# │    → Tokens → Generate new token (scope: read:packages)    │
+# │    → Copie dans .env (GITHUB_TOKEN=...)                     │
+# └─────────────────────────────────────────────────────────────┘
+#
+# ÉTAPE 3: Teste la configuration
+#   python llm_providers.py
+#
+# ÉTAPE 4: Utilise dans ton code
+#   from llm_providers import FreeLLMProviders
+#   llm = FreeLLMProviders()
+#   result = llm.chat("groq", "llama-3.3-70b-versatile",
+#                      [{"role": "user", "content": "Bonjour"}])
+#   print(result["choices"][0]["message"]["content"])
+# ============================================
