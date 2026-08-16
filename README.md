@@ -1,21 +1,21 @@
-# 🌐 NetPulse AI — Network Intelligence & Operations Platform
+#  NetPulse AI — Network Intelligence & Operations Platform
 
 An AI-powered Network Intelligence platform featuring real-time LAN & WiFi diagnostics, interactive 3D topology visualization, multi-model AI routing, and PostgreSQL analytics.
 
 ---
 
-## ✨ Features
+##  Features
 
-- 🛰️ **3D Interactive Topology Visualizer**: Real-time 3D rendering of network nodes, gateways, servers, workstations, IoT sensors, and firewalls with animated data flow tubes and PBR shaders.
-- 📡 **LAN & WiFi Network Scanner**: Hardware-level device discovery via ARP and 802.11 BSSID discovery with latency and bandwidth tracking.
-- 🧠 **Multi-Provider AI Intelligence Engine**: Smart query router across 8 free LLM providers (Mistral, Groq, Cerebras, SambaNova, Cohere, NVIDIA NIM, OpenRouter, GitHub Models).
-- 🔒 **Security & Authentication**: Dual authentication support with local encrypted JWT credentials and Google OAuth 2.0 (GSI / FedCM).
-- 📊 **Real-time Diagnostics & Monitoring**: Live throughput graphs, packet loss inspection, and anomaly alerts.
-- 🗄️ **Persistent Analytics**: PostgreSQL database backend for historical telemetry and audit logging.
+-  **3D Interactive Topology Visualizer**: Real-time 3D rendering of network nodes, gateways, servers, workstations, IoT sensors, and firewalls with animated data flow tubes and PBR shaders.
+-  **LAN & WiFi Network Scanner**: Hardware-level device discovery via ARP and 802.11 BSSID discovery with latency and bandwidth tracking.
+-  **Multi-Provider AI Intelligence Engine**: Smart query router across 8 free LLM providers (Mistral, Groq, Cerebras, SambaNova, Cohere, NVIDIA NIM, OpenRouter, GitHub Models).
+-  **Security & Authentication**: Dual authentication support with local encrypted JWT credentials and Google OAuth 2.0 (GSI / FedCM).
+-  **Real-time Diagnostics & Monitoring**: Live throughput graphs, packet loss inspection, and anomaly alerts.
+-  **Persistent Analytics**: PostgreSQL database backend for historical telemetry and audit logging.
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 ├── netpulse-ai/
@@ -36,7 +36,7 @@ An AI-powered Network Intelligence platform featuring real-time LAN & WiFi diagn
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### 1. Backend Setup
 
@@ -67,6 +67,6 @@ Copy `.env.example` to `.env` in both root and `backend/` directories and add yo
 
 ---
 
-## 🛡️ License
+##  License
 
 MIT License. Designed & Built for Network Operations & Intelligence.
