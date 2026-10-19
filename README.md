@@ -29,8 +29,6 @@ et route chaque question vers le meilleur LLM disponible.
 
 ## 📸 Captures
 
-> Remplace les deux emplacements ci-dessous par tes captures, puis mets à jour les chemins.
-
 <p align="center">
   <img src="docs/screenshots/PLACEHOLDER-01-topologie-3d.svg" width="49%" alt="Topologie 3D"/>
   <img src="docs/screenshots/PLACEHOLDER-02-diagnostic-reseau.svg" width="49%" alt="Diagnostic réseau"/>
